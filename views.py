@@ -1,6 +1,6 @@
 from flask import abort, request, render_template, redirect, url_for, \
     session, flash
-from forms import NameForm
+from forms import NameForm, PuppiesForm, DeleteForm
 from app import app, db
 from model import Puppy, Toy
 
